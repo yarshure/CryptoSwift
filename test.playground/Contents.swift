@@ -40,5 +40,13 @@ func test() {
     let hmac = try! Authenticator.HMAC(key: key, variant: .md5).authenticate(msg)
 
 }
+//#include <errno.h>
+//#include <sys/sysctl.h>
 
-test()
+//char str[256];
+//size_t size = sizeof(str);
+
+//public func sysctlbyname(_: UnsafePointer<Int8>, _: UnsafeMutablePointer<Void>, _: UnsafeMutablePointer<Int>, _: UnsafeMutablePointer<Void>, _: Int) -> Int32
+
+
+//test()
